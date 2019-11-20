@@ -16,6 +16,7 @@ public class SynchronizedMain {
 	public static void main(String[] args) {
 		
 		SynchronizedMethods s = new SynchronizedMethods();
+//		SynchronizedMethods s2 = new SynchronizedMethods();
 		Thread t = new Thread(new SynchronizedRunnable(s));
 		Thread t2 = new Thread(new SynchronizedRunnable2(s));
 		

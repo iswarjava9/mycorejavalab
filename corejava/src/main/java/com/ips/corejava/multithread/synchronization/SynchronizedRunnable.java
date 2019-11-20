@@ -9,7 +9,8 @@ public class SynchronizedRunnable implements Runnable{
 	@Override
 	public void run() {
 		try {
-			sk.doTask1();
+			sk.doTask1();			
+			sk.doTask2();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
